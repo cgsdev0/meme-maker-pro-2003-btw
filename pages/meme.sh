@@ -16,8 +16,8 @@ POINT_SIZE_BOTTOM="$((80-POINT_SIZE_BOTTOM*2))"
 
 
 if [[ ! -z "${QUERY_PARAMS[share]}" ]]; then
-  mkdir -p /root/memes/static/shared
-  TEMP=$(mktemp --tmpdir=/root/memes/static/shared XXXXXXX.png)
+  mkdir -p ./static/shared
+  TEMP=$(mktemp --tmpdir=./static/shared XXXXXXX.png)
   convert ./static/templates/$FILE \
         -stroke black -strokewidth 2 -fill white \
          -pointsize $POINT_SIZE_TOP -gravity North -annotate +0+10 "$TOP_TEXT" \
