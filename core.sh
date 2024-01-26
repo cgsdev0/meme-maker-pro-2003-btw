@@ -130,8 +130,7 @@ function htmx_page() {
   ${STYLE_TEXT}
   <script src="https://unpkg.com/hyperscript.org@0.9.12"></script>
   <script src="https://unpkg.com/htmx.org@1.9.3/dist/htmx.min.js" integrity="sha384-lVb3Rd/Ca0AxaoZg5sACe8FJKF0tnUgR2Kd7ehUOG5GCcROv5uBIZsOqovBAcWua" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/hyperscript.org@0.9.8"></script>
-  <script src="https://unpkg.com/htmx.org/dist/ext/sse.js"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.3/dist/ext/sse.js"></script>
   </head>
   <body>
   $(_inject_hmr)
